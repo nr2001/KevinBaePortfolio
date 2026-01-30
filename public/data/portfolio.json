@@ -1,0 +1,199 @@
+[
+    {
+      "id": 1,
+      "category": "engagements",
+      "type": "photo",
+      "src": "/gallery/engagements/p1.jpg",
+      "title": "Engagement with A and B"
+    },
+    {
+      "id": 2,
+      "category": "engagements",
+      "type": "photo",
+      "src": "/gallery/engagements/e2.jpg",
+      "title": "Engagement with A and B 2"
+    },
+    {
+      "id": 3,
+      "category": "featured",
+      "type": "photo",
+      "src": "/gallery/engagements/e1.jpg",
+      "title": "Nature of Love",
+      "description": "This collection represents my strongest work across multiple styles, focusing on emotion and storytelling."
+    },
+    {
+        "id": 4,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/events/Baby2.jpg",
+        "title": "Cuteness Overload",
+        "description": "blah blah blah blah"
+      },
+      {
+        "id": 5,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/graduations/grad5.jpg",
+        "title": "Graduations",
+        "description": "Chris is gay"
+        
+      },
+      {
+        "id": 6,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/freelance/Headshot1.jpg",
+        "title": "Headshot",
+        "description": "blah blah blah blah"
+      },
+      {
+        "id": 7,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/grad1.jpg",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": 8,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/grad2.jpg",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": 9,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/grad3.jpg",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": 10,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/grad4.jpg",
+        "title": "",
+        "description": ""
+      }
+      ,
+      {
+        "id": 11,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/grad5.jpg",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": 12,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/freelance/p3.jpg",
+        "title": "True Nature?",
+        "description": "This collection represents my strongest work across multiple styles, focusing on emotion and storytelling."
+      },
+      {
+        "id": 13,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/freelance/City1.JPG",
+        "title": "City Boy",
+        "description": "blah blah blah blah"
+      },
+      {
+        "id": 14,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/engagements/p6.jpg",
+        "title": "True Love",
+        "description": "blah blah blah blah"
+      },
+      {
+        "id": 15,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e3.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 16,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e4.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 17,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e5.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 18,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e6.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 19,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e7.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 20,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e8.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 21,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e9.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 22,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/e10.jpg",
+        "title": "Engagement with A and B 2"
+      },
+      {
+        "id": 23,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/Baby3.jpg",
+        "title": "Baby and family"
+      },
+      {
+        "id": 24,
+        "category": "freelance",
+        "type": "photo",
+        "src": "/gallery/freelance/City2.jpg",
+        "title": ""
+      },
+      {
+        "id": 25,
+        "category": "freelance",
+        "type": "photo",
+        "src": "/gallery/freelance/Headshot2.jpg",
+        "title": ""
+      },
+      {
+        "id": 26,
+        "category": "freelance",
+        "type": "photo",
+        "src": "/gallery/freelance/p5.jpg",
+        "title": ""
+      }
+  ]
+  
