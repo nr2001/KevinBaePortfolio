@@ -55,7 +55,6 @@ function ParallaxItem({
         {item.type === "photo" ? (
           <FadeInImage
             src={item.src}
-            instant={instant}
             className="w-full h-[75vh] object-cover"
           />
         ) : (
