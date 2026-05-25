@@ -9,9 +9,9 @@ export async function POST(req: Request) {
   try {
     await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
-      to: ["noahroh1016@gmail.com"], 
+      to: ["baekevin17@gmail.com"], 
       replyTo: email,
-      subject: "New Contact Form Submission",
+      subject: "KB Collective | Studio: New Contact Form Submission",
       html: `
         <h2>New Contact Message</h2>
         <p><strong>Name:</strong> ${name}</p>
