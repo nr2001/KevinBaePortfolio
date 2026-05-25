@@ -1,199 +1,347 @@
 [
     {
-      "id": 1,
-      "category": "engagements",
-      "type": "photo",
-      "src": "/gallery/engagements/p1.jpg",
-      "title": "Engagement with A and B"
+        "id": 1,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/01.jpg",
+        "title": "Engagement Session 01"
     },
     {
-      "id": 2,
-      "category": "engagements",
-      "type": "photo",
-      "src": "/gallery/engagements/e2.jpg",
-      "title": "Engagement with A and B 2"
+        "id": 2,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/02.jpg",
+        "title": "Engagement Session 02"
     },
     {
-      "id": 3,
-      "category": "featured",
-      "type": "photo",
-      "src": "/gallery/engagements/e1.jpg",
-      "title": "Nature of Love",
-      "description": "This collection represents my strongest work across multiple styles, focusing on emotion and storytelling."
+        "id": 3,
+        "category": "engagements",
+        "type": "photo",
+        "src": "/gallery/engagements/03.jpg",
+        "title": "Engagement Session 03"
     },
     {
         "id": 4,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/events/Baby2.jpg",
-        "title": "Cuteness Overload",
-        "description": "blah blah blah blah"
-      },
-      {
+        "src": "/gallery/engagements/04.jpg",
+        "title": "Engagement Session 04"
+    },
+    {
         "id": 5,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad5.jpg",
-        "title": "Graduations",
-        "description": "Chris is gay"
-        
-      },
-      {
+        "src": "/gallery/engagements/05.jpg",
+        "title": "Engagement Session 05"
+    },
+    {
         "id": 6,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/freelance/Headshot1.jpg",
-        "title": "Headshot",
-        "description": "blah blah blah blah"
-      },
-      {
+        "src": "/gallery/engagements/06.jpg",
+        "title": "Engagement Session 06"
+    },
+    {
         "id": 7,
-        "category": "graduations",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad1.jpg",
-        "title": "",
-        "description": ""
-      },
-      {
+        "src": "/gallery/engagements/07.jpg",
+        "title": "Engagement Session 07"
+    },
+    {
         "id": 8,
-        "category": "graduations",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad2.jpg",
-        "title": "",
-        "description": ""
-      },
-      {
+        "src": "/gallery/engagements/08.jpg",
+        "title": "Engagement Session 08"
+    },
+    {
         "id": 9,
-        "category": "graduations",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad3.jpg",
-        "title": "",
-        "description": ""
-      },
-      {
+        "src": "/gallery/engagements/09.jpg",
+        "title": "Engagement Session 09"
+    },
+    {
         "id": 10,
-        "category": "graduations",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad4.jpg",
-        "title": "",
-        "description": ""
-      }
-      ,
-      {
+        "src": "/gallery/engagements/10.jpg",
+        "title": "Engagement Session 10"
+    },
+    {
         "id": 11,
-        "category": "graduations",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/graduations/grad5.jpg",
-        "title": "",
-        "description": ""
-      },
-      {
+        "src": "/gallery/engagements/11.jpg",
+        "title": "Engagement Session 11"
+    },
+    {
         "id": 12,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/freelance/p3.jpg",
-        "title": "True Nature?",
-        "description": "This collection represents my strongest work across multiple styles, focusing on emotion and storytelling."
-      },
-      {
+        "src": "/gallery/engagements/12.jpg",
+        "title": "Engagement Session 12"
+    },
+    {
         "id": 13,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/freelance/City1.JPG",
-        "title": "City Boy",
-        "description": "blah blah blah blah"
-      },
-      {
+        "src": "/gallery/engagements/13.jpg",
+        "title": "Engagement Session 13"
+    },
+    {
         "id": 14,
-        "category": "featured",
+        "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/p6.jpg",
-        "title": "True Love",
-        "description": "blah blah blah blah"
-      },
-      {
+        "src": "/gallery/engagements/14.jpg",
+        "title": "Engagement Session 14"
+    },
+    {
         "id": 15,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e3.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/15.jpg",
+        "title": "Engagement Session 15"
+    },
+    {
         "id": 16,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e4.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/16.jpg",
+        "title": "Engagement Session 16"
+    },
+    {
         "id": 17,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e5.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/17.jpg",
+        "title": "Engagement Session 17"
+    },
+    {
         "id": 18,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e6.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/18.jpg",
+        "title": "Engagement Session 18"
+    },
+    {
         "id": 19,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e7.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/19.jpg",
+        "title": "Engagement Session 19"
+    },
+    {
         "id": 20,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e8.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/20.jpg",
+        "title": "Engagement Session 20"
+    },
+    {
         "id": 21,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e9.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
+        "src": "/gallery/engagements/21.jpg",
+        "title": "Engagement Session 21"
+    },
+    {
         "id": 22,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/e10.jpg",
-        "title": "Engagement with A and B 2"
-      },
-      {
-        "id": 23,
+        "src": "/gallery/engagements/22.jpg",
+        "title": "Engagement Session 22"
+    },
+    {
+        "id": 24,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/01.jpg",
+        "title": "Graduation Session 01"
+    },
+    {
+        "id": 25,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/02.jpg",
+        "title": "Graduation Session 02"
+    },
+    {
+        "id": 26,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/03.jpg",
+        "title": "Graduation Session 03"
+    },
+    {
+        "id": 27,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/04.jpg",
+        "title": "Graduation Session 04"
+    },
+    {
+        "id": 28,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/05.jpg",
+        "title": "Graduation Session 05"
+    },
+    {
+        "id": 29,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/06.jpg",
+        "title": "Graduation Session 06"
+    },
+    {
+        "id": 30,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/07.jpg",
+        "title": "Graduation Session 07"
+    },
+    {
+        "id": 31,
+        "category": "graduations",
+        "type": "photo",
+        "src": "/gallery/graduations/08.jpg",
+        "title": "Graduation Session 08"
+    },
+    {
+        "id": 32,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/Baby3.jpg",
-        "title": "Baby and family"
+        "src": "/gallery/events/01.jpg",
+        "title": "Special Event 01"
+    },
+    {
+        "id": 33,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/02.jpg",
+        "title": "Special Event 02"
+    },
+    {
+        "id": 34,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/03.jpg",
+        "title": "Special Event 03"
+    },
+    {
+        "id": 35,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/04.jpg",
+        "title": "Special Event 04"
+    },
+    {
+        "id": 36,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/05.jpg",
+        "title": "Special Event 05"
+    },
+    {
+        "id": 37,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/06.jpg",
+        "title": "Special Event 06"
+    },
+    {
+        "id": 38,
+        "category": "events",
+        "type": "photo",
+        "src": "/gallery/events/07.jpg",
+        "title": "Special Event 07"
+    }
+    ,
+    {
+      "id": 39,
+      "category": "freelance",
+      "type": "photo",
+      "src": "/gallery/freelance/01.jpg",
+      "title": "Freelance Work 01"
+    },
+    {
+      "id": 40,
+      "category": "freelance",
+      "type": "photo",
+      "src": "/gallery/freelance/02.jpg",
+      "title": "Freelance Work 02"
+    },
+    {
+      "id": 41,
+      "category": "freelance",
+      "type": "photo",
+      "src": "/gallery/freelance/03.jpg",
+      "title": "Freelance Work 03"
+    }
+    ,
+    {
+        "id": 42,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/engagements/05.jpg",
+        "title": "Evergreen",
+        "description": "A quiet romantic 44moment framed by soft light, open space, and the calm beauty of nature."
       },
       {
-        "id": 24,
-        "category": "freelance",
+        "id": 43,
+        "category": "featured",
         "type": "photo",
-        "src": "/gallery/freelance/City2.jpg",
-        "title": ""
+        "src": "/gallery/graduations/01.jpg",
+        "title": "Proud Moment",
+        "description": "A graduation portrait highlighting achievement, confidence, and warm natural light."
       },
       {
-        "id": 25,
-        "category": "freelance",
+        "id": 44,
+        "category": "featured",
         "type": "photo",
-        "src": "/gallery/freelance/Headshot2.jpg",
-        "title": ""
+        "src": "/gallery/engagements/22.jpg",
+        "title": "Promise",
+        "description": "A quiet moment captured through intertwined hands and the soft glimmer of a newly worn wedding ring."
       },
       {
-        "id": 26,
-        "category": "freelance",
+        "id": 45,
+        "category": "featured",
         "type": "photo",
-        "src": "/gallery/freelance/p5.jpg",
-        "title": ""
+        "src": "/gallery/events/01.jpg",
+        "title": "First Birthday",
+        "description": "Minimal and intimate storytelling focused on warmth, detail, and emotion."
+      },
+      {
+        "id": 46,
+        "category": "featured",
+        "type": "photo",
+        "src": "/gallery/freelance/01.jpg",
+        "title": "City View",
+        "description": "An atmospheric urban landscape blending natural tones with cinematic depth."
+      },
+      {
+        "id": 50,
+        "category": "videos",
+        "type": "video",
+        "src": "https://www.youtube.com/embed/KSZ5dQU1yy0",
+        "title": "Life of a Creative"
+      },
+      {
+        "id": 51,
+        "category": "videos",
+        "type": "video",
+        "src": "https://www.youtube.com/embed/S3fYkXyujFI",
+        "title": "Love and Fear"
+      },
+      {
+        "id": 52,
+        "category": "videos",
+        "type": "video",
+        "src": "https://www.youtube.com/embed/WPcHFluuwqw",
+        "title": "I GET IT"
       }
-  ]
-  
+
+      
+]

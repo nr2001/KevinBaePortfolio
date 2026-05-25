@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 import { useSearchParams } from "next/navigation";
+import React from "react";
+import FadeInImage from "../../components/FadeInImage";
 
-import FadeInImage from "@/components/FadeInImage";
-
-type Category = "featured" | "engagements" | "graduations" | "events";
+type Category = "featured" | "engagements" | "graduations" | "events" | "freelance" | "videos";
 
 type PortfolioItem = {
   id: number;
@@ -16,6 +16,13 @@ type PortfolioItem = {
   title: string;
   description?: string;
 };
+
+function getYouTubeId(url: string) {
+  if (url.includes("embed/")) return url.split("embed/")[1].split("?")[0];
+  if (url.includes("watch?v=")) return url.split("watch?v=")[1].split("&")[0];
+  if (url.includes("youtu.be/")) return url.split("youtu.be/")[1].split("?")[0];
+  return url;
+}
 
 function ParallaxItem({
   item,
@@ -48,7 +55,21 @@ function ParallaxItem({
         {item.type === "photo" ? (
           <FadeInImage src={item.src} className="w-full h-[75vh] object-cover" />
         ) : (
-          <video src={item.src} className="w-full h-[75vh] object-cover" muted />
+          <div className="relative aspect-video w-full overflow-hidden bg-black group">
+            <img
+              src={`https://img.youtube.com/vi/${getYouTubeId(item.src)}/maxresdefault.jpg`}
+              alt={item.title}
+              className="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            />
+
+            <div className="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition" />
+
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center text-black text-3xl pl-1">
+                ▶
+              </div>
+            </div>
+          </div>
         )}
       </motion.div>
     </motion.div>
@@ -97,16 +118,16 @@ export default function PortfolioClient() {
     filter === "featured"
       ? items.filter((i) => i.category === "featured")
       : filter === "albums"
-      ? items.filter((i) => i.type === "photo" && i.category !== "featured")
-      : items.filter((i) => i.type === "video");
+        ? items.filter((i) => i.type === "photo" && i.category !== "featured")
+        : items.filter((i) => i.type === "video");
 
   // determines what modal prev/next should navigate through
   const navigableItems =
     filter === "albums"
       ? items.filter((i) => i.type === "photo" && i.category !== "featured")
       : filter === "videos"
-      ? items.filter((i) => i.type === "video")
-      : filteredItems;
+        ? items.filter((i) => i.type === "video")
+        : filteredItems;
 
   const currentIndex = navigableItems.findIndex((i) => i.id === selected?.id);
 
@@ -133,9 +154,8 @@ export default function PortfolioClient() {
             <button
               key={tab.value}
               onClick={() => setFilter(tab.value)}
-              className={`transition ${
-                filter === tab.value ? "font-medium underline" : "opacity-40"
-              }`}
+              className={`transition ${filter === tab.value ? "font-medium underline" : "opacity-40"
+                }`}
             >
               {tab.label}
             </button>
@@ -157,14 +177,41 @@ export default function PortfolioClient() {
                     <ParallaxItem item={item} onClick={() => setSelected(item)} />
                   </div>
 
-                  <div className={`${isEven ? "lg:order-2" : "lg:order-1"} order-2 flex flex-col justify-center`}>
-                    <p className="uppercase tracking-widest text-xs opacity-50 mb-4">
+                  <div
+                    className={`${isEven ? "lg:order-2" : "lg:order-1"
+                      } order-2 flex flex-col justify-center max-w-xl px-4 lg:px-12`}
+                  >
+                    <p className="uppercase tracking-[0.35em] text-[11px] text-[#b8a898] mb-6">
                       Featured
                     </p>
-                    <h2 className="text-3xl font-light tracking-wide mb-6">
+
+                    <h2
+                      className="
+                        font-cormorant
+                        text-5xl
+                        lg:text-7xl
+                        font-light
+                        leading-none
+                        tracking-[-0.03em]
+                        text-[#1d1d1d]
+                        mb-8
+                      "
+                    >
                       {item.title}
                     </h2>
-                    <p className="text-gray-600 leading-relaxed max-w-md">
+
+                    <div className="w-24 h-px bg-[#cfc3b7] mb-8" />
+
+                    <p
+                      className="
+                        font-cormorant
+                        italic
+                        text-xl
+                        leading-[1.9]
+                        text-[#5e5a56]
+                        max-w-md
+                      "
+                    >
                       {item.description}
                     </p>
                   </div>
@@ -240,12 +287,15 @@ export default function PortfolioClient() {
                     className="w-full max-h-[80vh] object-contain rounded-lg shadow-2xl"
                   />
                 ) : (
-                  <video
-                    src={selected.src}
-                    className="w-full max-h-[80vh] rounded-lg shadow-2xl"
-                    controls
-                    autoPlay
-                  />
+                  <div className="aspect-video w-full rounded-lg overflow-hidden shadow-2xl bg-black">
+                    <iframe
+                      src={`${selected.src}?autoplay=1`}
+                      title={selected.title}
+                      className="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
                 )}
 
                 {currentIndex > 0 && (

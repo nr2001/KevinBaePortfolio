@@ -8,32 +8,39 @@
   }
   
   .shopTitle {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color:#374151
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.35em;
+      font-size: 40px;
+      color: #b8a898;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    
   }
   
   .shopSubtitle {
+    font-family: "Cormorant Garamond", serif;
     text-align: center;
     margin-top: 0.5rem;
     color: #6b7280;
   }
   
   .pricingGrid {
+    font-family: "Cormorant Garamond", serif;
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
   }
   .packageTitle {
+    font-family: "Cormorant Garamond", serif;
     color: #3E4E3C;
-    font-weight: 600;
+    font-weight: 400;
   }
   
   
   .card {
+    font-family: "Cormorant Garamond", serif;
     position: relative;
     background: #ffffff;
     border: 1px solid #e5e7eb;
@@ -71,9 +78,10 @@
   }
   
   .price {
+    font-family: "Cormorant Garamond", serif;
     color: #3E4E3C;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     margin: 1rem 0 1.5rem;
   }
   
@@ -85,6 +93,7 @@
   }
   
   .featureItem {
+    font-family: "Cormorant Garamond", serif;
     margin: 0.5rem 0;
   }
   

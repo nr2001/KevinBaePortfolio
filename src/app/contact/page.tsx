@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import ContactClient from "./ContactClient";
+import React from "react";
 
 export default function ContactPage() {
   return (

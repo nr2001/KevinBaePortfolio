@@ -6,6 +6,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Footer from "../components/Footer";
 import React from "react";
+import { Cormorant_Garamond } from "next/font/google";
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  variable: "--font-cormorant",
+});
 
 export default function RootLayout({
   children,
@@ -16,7 +23,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-black overflow-x-hidden">
+      <body className={`${cormorant.variable} bg-gray-50 text-black overflow-x-hidden`}>
         <Navbar />
 
           <motion.div

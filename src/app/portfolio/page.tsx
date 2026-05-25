@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import PortfolioClient from "./PortfolioClient";
+import React from "react";
 
 export default function PortfolioPage() {
   return (

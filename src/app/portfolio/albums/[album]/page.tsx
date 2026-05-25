@@ -55,12 +55,13 @@ function ParallaxItem({
         {item.type === "photo" ? (
           <FadeInImage
             src={item.src}
-            className="w-full h-[75vh] object-cover"
+            alt={item.title}
+            className="w-full h-[50vh] sm:h-[65vh] lg:h-[75vh] object-cover"
           />
         ) : (
           <video
             src={item.src}
-            className="w-full h-[75vh] object-cover"
+            className="w-full h-[50vh] sm:h-[65vh] lg:h-[75vh] object-cover"
             muted
           />
         )}
@@ -162,6 +163,7 @@ export default function AlbumPage() {
                 {selected.type === "photo" ? (
                   <FadeInImage
                     src={selected.src}
+                    alt={selected.title}
                     className="w-full max-h-[80vh] object-contain rounded-lg shadow-2xl"
                   />
                 ) : (

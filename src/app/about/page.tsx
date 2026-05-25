@@ -23,16 +23,42 @@ export default function About() {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
+          className="lg:-translate-y-4"
         >
-          <h1 className="text-4xl font-semibold mb-6">About Me</h1>
-          <p className="text-lg leading-relaxed mb-4 opacity-90">
-          My name is Kevin Bae — a photographer and videographer dedicated to capturing moments with intention, clarity, and emotion. My style blends creativity with professionalism, ensuring every client feels comfortable, heard, and confident in the process.
+          <p className="uppercase tracking-[0.35em] text-[11px] text-[#b8a898] mb-6">
+            About
           </p>
-          <p className="text-lg leading-relaxed mb-4 opacity-90">
-          Whether it’s documenting a milestone, telling a story through film, or creating visuals that elevate a brand, I approach every project with care and precision. My goal is simple: to deliver work you can trust, quality you can see, and an experience that feels effortless from start to finish.
+
+          <h1
+            className="font-cormorant text-[56px] lg:text-[60px] font-light leading-none tracking-[-0.03em] text-[#1d1d1d] mb-10">
+            Kevin Bae
+          </h1>
+
+          <div className="w-24 h-px bg-[#cfc3b7] mb-10" />
+
+          <p
+            className="font-cormorant italic text-[20px] leading-[1.8] text-[#5e5a56] mb-5">
+            My name is Kevin Bae — a photographer and videographer dedicated to
+            capturing moments with intention, clarity, and emotion.
           </p>
-          <p className="text-lg leading-relaxed opacity-90">
-          Thank you for considering me to capture your moment — I treat every project like it truly matters, because simply put, it does.”
+
+          <p
+            className="font-cormorant italic text-[20px] leading-[1.8] text-[#5e5a56] mb-5">
+            My style blends creativity with professionalism, ensuring every client
+            feels comfortable, heard, and confident throughout the process.
+          </p>
+
+          <p
+            className="font-cormorant italic text-[20px] leading-[1.8] text-[#5e5a56] mb-5">
+            Whether documenting a milestone, telling a story through film, or creating
+            visuals that elevate a brand, I approach every project with care and
+            precision.
+          </p>
+
+          <p
+            className="font-cormorant italic text-[20px] leading-[1.8] text-[#5e5a56] mb-5">
+            My goal is simple: to deliver work you can trust, quality you can see, and
+            an experience that feels effortless from start to finish.
           </p>
         </motion.div>
 

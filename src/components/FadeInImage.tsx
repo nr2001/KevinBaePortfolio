@@ -1,5 +1,7 @@
 "use client";
 
+import React from "react";
+
 type Props = {
   src: string;
   className?: string;

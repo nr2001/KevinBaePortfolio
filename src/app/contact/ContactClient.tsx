@@ -67,8 +67,7 @@ export default function ContactClient() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-semibold mb-12"
-        >
+          className="uppercase text-[40px] tracking-[0.35em] text-[11px] text-[#b8a898] mb-6">
           Contact
         </motion.h1>
 
@@ -82,7 +81,7 @@ export default function ContactClient() {
           {/* Name */}
           <div className="relative">
             <label
-              className={`absolute left-0 transition-all ${
+              className={`font-cormorant absolute left-0 transition-all ${
                 focused === "name" || form.name
                   ? "-top-5 text-sm text-gray-600"
                   : "top-2 text-base text-gray-400"
@@ -105,7 +104,7 @@ export default function ContactClient() {
           {/* Email */}
           <div className="relative">
             <label
-              className={`absolute left-0 transition-all ${
+              className={`font-cormorant absolute left-0 transition-all ${
                 focused === "email" || form.email
                   ? "-top-5 text-sm text-gray-600"
                   : "top-2 text-base text-gray-400"
@@ -128,7 +127,7 @@ export default function ContactClient() {
           {/* Message */}
           <div className="relative">
             <label
-              className={`absolute left-0 transition-all ${
+              className={`font-cormorant absolute left-0 transition-all ${
                 focused === "message" || form.message
                   ? "-top-5 text-sm text-gray-600"
                   : "top-2 text-base text-gray-400"
@@ -143,7 +142,7 @@ export default function ContactClient() {
               onFocus={() => setFocused("message")}
               onBlur={() => setFocused(null)}
               required
-              className="w-full border-b border-gray-300 bg-transparent py-2 outline-none h-28 resize-none"
+              className="font-cormorant w-full border-b border-gray-300 bg-transparent py-2 outline-none h-28 resize-none"
             />
           </div>
 
@@ -153,7 +152,7 @@ export default function ContactClient() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             disabled={loading}
-            className="px-8 py-3 border border-black text-black hover:bg-black hover:text-white transition disabled:opacity-50"
+            className="font-cormorant px-8 py-3 border border-black text-black hover:bg-black hover:text-white transition disabled:opacity-50"
           >
             {loading ? "Sending..." : "Send Message"}
           </motion.button>
