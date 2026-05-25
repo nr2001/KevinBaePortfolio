@@ -13,7 +13,7 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="/aboutKevin.jpg"
+            src="/aboutKevin.png"
             alt="About"
             className="w-full h-[500px] object-cover rounded-lg"
           />
