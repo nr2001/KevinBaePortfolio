@@ -49,7 +49,7 @@ function ParallaxItem({
     viewport={{ once: true }}
     transition={{ duration: 0 }}
       onClick={onClick}
-      className="cursor-zoom-in overflow-hidden rounded-lg w-full max-w-6xl"
+      className="overflow-hidden rounded-lg w-full max-w-6xl"
     >
       <motion.div style={{ y }}>
         {item.type === "photo" ? (
@@ -123,7 +123,9 @@ export default function AlbumPage() {
       </div>
 
 
-        
+      <p className="text-[10px] uppercase tracking-[0.3em] opacity-40 text-center mb-2">
+        Click image to expand
+      </p>
         
 
         {/* Gallery */}
@@ -142,7 +144,7 @@ export default function AlbumPage() {
         <AnimatePresence>
           {selected && (
             <motion.div
-              className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 cursor-zoom-out"
+              className="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
