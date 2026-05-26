@@ -77,10 +77,10 @@ function ParallaxItem({
 }
 
 const albums = [
-  { slug: "engagements", title: "Engagement Shoots", cover: "/gallery/engagements/cover.jpg" },
-  { slug: "graduations", title: "Graduation Shoots", cover: "/gallery/graduations/cover.jpg" },
-  { slug: "events", title: "Special Events", cover: "/gallery/events/cover.jpg" },
-  { slug: "freelance", title: "Freelance", cover: "/gallery/freelance/cover.jpg" },
+  { slug: "engagements", title: "Engagement Shoots", cover: "https://res.cloudinary.com/duqlzg702/image/upload/v1779817983/cover_nazu7j.jpg" },
+  { slug: "graduations", title: "Graduation Shoots", cover: "https://res.cloudinary.com/duqlzg702/image/upload/v1779818123/cover_yskeo1.jpg" },
+  { slug: "events", title: "Special Events", cover: "https://res.cloudinary.com/duqlzg702/image/upload/v1779818332/cover_husnrw.jpg" },
+  { slug: "freelance", title: "Freelance", cover: "https://res.cloudinary.com/duqlzg702/image/upload/v1779818392/cover_jy8a25.jpg" },
 ];
 
 const tabs = [

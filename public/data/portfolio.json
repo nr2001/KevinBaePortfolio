@@ -3,259 +3,210 @@
         "id": 1,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817982/22_ywfhq8.jpg",
         "title": "Engagement Session 01"
     },
     {
         "id": 2,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/02.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817982/17_vrqzbh.jpg",
         "title": "Engagement Session 02"
     },
     {
         "id": 3,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/03.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817977/02_az5awo.jpg",
         "title": "Engagement Session 03"
     },
     {
         "id": 4,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/04.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817980/13_cwiry4.jpg",
         "title": "Engagement Session 04"
     },
     {
         "id": 5,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/05.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817977/01_iui1vb.jpg",
         "title": "Engagement Session 05"
     },
     {
         "id": 6,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/06.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817977/04_yexb07.jpg",
         "title": "Engagement Session 06"
     },
     {
         "id": 7,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/07.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817979/07_jnufmj.jpg",
         "title": "Engagement Session 07"
     },
     {
         "id": 8,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/08.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817978/08_iwtgmb.jpg",
         "title": "Engagement Session 08"
     },
     {
         "id": 9,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/09.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817981/15_ocjanr.jpg",
         "title": "Engagement Session 09"
     },
     {
         "id": 10,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/10.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817978/10_ec5biu.jpg",
         "title": "Engagement Session 10"
     },
     {
         "id": 11,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/11.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817979/11_gzssfh.jpg",
         "title": "Engagement Session 11"
     },
     {
         "id": 12,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/12.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817979/12_o0lkit.jpg",
         "title": "Engagement Session 12"
     },
     {
         "id": 13,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/13.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817981/16_csu0vl.jpg",
         "title": "Engagement Session 13"
     },
     {
         "id": 14,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/14.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817981/19_najsd4.jpg",
         "title": "Engagement Session 14"
     },
     {
         "id": 15,
         "category": "engagements",
         "type": "photo",
-        "src": "/gallery/engagements/15.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817982/21_jz1h4h.jpg",
         "title": "Engagement Session 15"
-    },
-    {
-        "id": 16,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/16.jpg",
-        "title": "Engagement Session 16"
-    },
-    {
-        "id": 17,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/17.jpg",
-        "title": "Engagement Session 17"
-    },
-    {
-        "id": 18,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/18.jpg",
-        "title": "Engagement Session 18"
-    },
-    {
-        "id": 19,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/19.jpg",
-        "title": "Engagement Session 19"
-    },
-    {
-        "id": 20,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/20.jpg",
-        "title": "Engagement Session 20"
-    },
-    {
-        "id": 21,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/21.jpg",
-        "title": "Engagement Session 21"
-    },
-    {
-        "id": 22,
-        "category": "engagements",
-        "type": "photo",
-        "src": "/gallery/engagements/22.jpg",
-        "title": "Engagement Session 22"
     },
     {
         "id": 24,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818119/01_nu67n9.jpg",
         "title": "Graduation Session 01"
     },
     {
         "id": 25,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/02.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818119/02_sme1xr.jpg",
         "title": "Graduation Session 02"
     },
     {
         "id": 26,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/03.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818119/03_aiwvw9.jpg",
         "title": "Graduation Session 03"
     },
     {
         "id": 27,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/04.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818119/04_svogkr.jpg",
         "title": "Graduation Session 04"
     },
     {
         "id": 28,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/05.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818120/05_n54fhk.jpg",
         "title": "Graduation Session 05"
     },
     {
         "id": 29,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/06.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818121/06_mu0pdt.jpg",
         "title": "Graduation Session 06"
     },
     {
         "id": 30,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/07.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818121/07_n0dxml.jpg",
         "title": "Graduation Session 07"
     },
     {
         "id": 31,
         "category": "graduations",
         "type": "photo",
-        "src": "/gallery/graduations/08.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818122/08_w8fhzz.jpg",
         "title": "Graduation Session 08"
     },
     {
         "id": 32,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818328/01_g0moye.jpg",
         "title": "Special Event 01"
     },
     {
         "id": 33,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/02.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818329/02_uybkda.jpg",
         "title": "Special Event 02"
     },
     {
         "id": 34,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/03.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818329/03_eqrnud.jpg",
         "title": "Special Event 03"
     },
     {
         "id": 35,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/04.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818329/04_gtkfr9.jpg",
         "title": "Special Event 04"
     },
     {
         "id": 36,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/05.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818330/05_nxrzjr.jpg",
         "title": "Special Event 05"
     },
     {
         "id": 37,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/06.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818331/06_nawtkq.jpg",
         "title": "Special Event 06"
     },
     {
         "id": 38,
         "category": "events",
         "type": "photo",
-        "src": "/gallery/events/07.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818332/07_nwtuiz.jpg",
         "title": "Special Event 07"
     }
     ,
@@ -263,21 +214,21 @@
       "id": 39,
       "category": "freelance",
       "type": "photo",
-      "src": "/gallery/freelance/01.jpg",
+      "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818391/01_jqd5cs.jpg",
       "title": "Freelance Work 01"
     },
     {
       "id": 40,
       "category": "freelance",
       "type": "photo",
-      "src": "/gallery/freelance/02.jpg",
+      "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818391/02_l6abqj.jpg",
       "title": "Freelance Work 02"
     },
     {
       "id": 41,
       "category": "freelance",
       "type": "photo",
-      "src": "/gallery/freelance/03.jpg",
+      "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818392/03_gh1nen.jpg",
       "title": "Freelance Work 03"
     }
     ,
@@ -285,7 +236,7 @@
         "id": 42,
         "category": "featured",
         "type": "photo",
-        "src": "/gallery/engagements/05.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817977/01_iui1vb.jpg",
         "title": "Evergreen",
         "description": "A quiet romantic 44moment framed by soft light, open space, and the calm beauty of nature."
       },
@@ -293,7 +244,7 @@
         "id": 43,
         "category": "featured",
         "type": "photo",
-        "src": "/gallery/graduations/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818119/01_nu67n9.jpg",
         "title": "Proud Moment",
         "description": "A graduation portrait highlighting achievement, confidence, and warm natural light."
       },
@@ -301,7 +252,7 @@
         "id": 44,
         "category": "featured",
         "type": "photo",
-        "src": "/gallery/engagements/22.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779817982/22_ywfhq8.jpg",
         "title": "Promise",
         "description": "A quiet moment captured through intertwined hands and the soft glimmer of a newly worn wedding ring."
       },
@@ -309,7 +260,7 @@
         "id": 45,
         "category": "featured",
         "type": "photo",
-        "src": "/gallery/events/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818328/01_g0moye.jpg",
         "title": "First Birthday",
         "description": "Minimal and intimate storytelling focused on warmth, detail, and emotion."
       },
@@ -317,7 +268,7 @@
         "id": 46,
         "category": "featured",
         "type": "photo",
-        "src": "/gallery/freelance/01.jpg",
+        "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818391/01_jqd5cs.jpg",
         "title": "City View",
         "description": "An atmospheric urban landscape blending natural tones with cinematic depth."
       },
@@ -341,6 +292,13 @@
         "type": "video",
         "src": "https://www.youtube.com/embed/WPcHFluuwqw",
         "title": "I GET IT"
+      },
+      {
+          "id": 53,
+          "category": "graduations",
+          "type": "photo",
+          "src": "https://res.cloudinary.com/duqlzg702/image/upload/v1779818123/cover_yskeo1.jpg",
+          "title": "Graduation Session Cover"
       }
 
       
