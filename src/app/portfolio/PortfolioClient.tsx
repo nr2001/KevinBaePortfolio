@@ -53,7 +53,10 @@ function ParallaxItem({
     >
       <motion.div style={{ y }}>
         {item.type === "photo" ? (
-          <FadeInImage src={item.src} className="w-full h-[75vh] object-cover" />
+          <FadeInImage
+          src={item.src}
+          className="w-full max-h-[55vh] md:max-h-[75vh] object-contain rounded-lg"
+        />
         ) : (
           <div className="relative aspect-video w-full overflow-hidden bg-black group">
             <img
@@ -143,7 +146,7 @@ export default function PortfolioClient() {
 
   return (
     <main className="min-h-screen bg-[#f7f7f5] text-gray-900">
-      <div className="max-w-7xl mx-auto pl-12 pr-20 pt-25 pb-40">
+      <div className="max-w-7xl mx-auto px-6 md:pl-12 md:pr-20 pt-28 md:pt-30 pb-20 md:pb-40">
         <p className="uppercase tracking-widest text-xs mb-6 opacity-60">
           Selected Works
         </p>
@@ -177,14 +180,14 @@ export default function PortfolioClient() {
 
         {/* Featured */}
         {filter === "featured" && (
-          <div className="flex flex-col gap-20">
+          <div className="flex flex-col gap-12 md:gap-20">
             {filteredItems.map((item, index) => {
               const isEven = index % 2 === 0;
 
               return (
                 <div
                   key={item.id}
-                  className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
+                  className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center"
                 >
                   <div className={`${isEven ? "lg:order-1" : "lg:order-2"} order-1`}>
                     <ParallaxItem item={item} onClick={() => setSelected(item)} />
@@ -194,33 +197,31 @@ export default function PortfolioClient() {
                     className={`${isEven ? "lg:order-2" : "lg:order-1"
                       } order-2 flex flex-col justify-center max-w-xl px-4 lg:px-12`}
                   >
-                    <p className="uppercase tracking-[0.35em] text-[11px] text-[#b8a898] mb-6">
+                    <p className="uppercase tracking-[0.35em] text-[11px] text-[#b8a898] mb-3 md:mb-6">
                       Featured
                     </p>
 
                     <h2
                       className="
                         font-cormorant
-                        text-5xl
-                        lg:text-7xl
+                        text-3xl md:text-5xl lg:text-7xl
                         font-light
                         leading-none
                         tracking-[-0.03em]
                         text-[#1d1d1d]
-                        mb-8
+                        mb-5 md:mb-8
                       "
                     >
                       {item.title}
                     </h2>
 
-                    <div className="w-24 h-px bg-[#cfc3b7] mb-8" />
+                    <div className="w-20 md:w-24 h-px bg-[#cfc3b7] mb-5 md:mb-8" />
 
                     <p
                       className="
                         font-cormorant
                         italic
-                        text-xl
-                        leading-[1.9]
+                        text-lg md:text-xl leading-[1.6] md:leading-[1.9]
                         text-[#5e5a56]
                         max-w-md
                       "
@@ -236,7 +237,7 @@ export default function PortfolioClient() {
 
         {/* Albums */}
         {filter === "albums" && (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
             {albums.map((album) => (
               <a
                 key={album.slug}
@@ -247,7 +248,7 @@ export default function PortfolioClient() {
                   <img
                     src={album.cover}
                     className="
-                    w-full h-[55vh] md:h-[65vh] object-cover
+                    w-full h-[45vh] md:h-[65vh] object-cover
                     transition-all duration-700
                     md:group-hover:scale-105 md:group-hover:blur-sm
                   "
@@ -283,7 +284,7 @@ export default function PortfolioClient() {
 
         {/* Videos */}
         {filter === "videos" && (
-          <div className="flex flex-col items-center gap-32">
+          <div className="flex flex-col items-center gap-14 md:gap-32">
             {items
               .filter((i) => i.type === "video")
               .map((item) => (

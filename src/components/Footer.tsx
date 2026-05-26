@@ -9,7 +9,7 @@ export default function Footer() {
   
         <div className="flex justify-center gap-10 uppercase tracking-wider text-sm">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/kevinbae_/"
             target="_blank"
             className="hover:text-gray-900 transition"
           >
@@ -23,7 +23,7 @@ export default function Footer() {
             Youtube
           </a>
           <a
-            href="mailto:email@example.com"
+            href="mailto:baekevin17@gmail.com"
             className="hover:text-gray-900 transition"
           >
             Email

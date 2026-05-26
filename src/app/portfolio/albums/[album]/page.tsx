@@ -56,12 +56,12 @@ function ParallaxItem({
           <FadeInImage
             src={item.src}
             alt={item.title}
-            className="w-full h-[50vh] sm:h-[65vh] lg:h-[75vh] object-cover"
+            className="w-full max-h-[55vh] sm:max-h-[70vh] lg:max-h-[80vh] object-contain rounded-lg"
           />
         ) : (
           <video
             src={item.src}
-            className="w-full h-[50vh] sm:h-[65vh] lg:h-[75vh] object-cover"
+            className="w-full max-h-[55vh] sm:max-h-[70vh] lg:max-h-[80vh] object-contain rounded-lg"
             muted
           />
         )}
@@ -127,7 +127,7 @@ export default function AlbumPage() {
         
 
         {/* Gallery */}
-        <div className="flex flex-col items-center gap-32">
+        <div className="flex flex-col items-center gap-14 md:gap-32">
           {items.map((item, index) => (
             <ParallaxItem
               key={item.id}

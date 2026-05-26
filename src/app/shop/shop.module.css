@@ -1,116 +1,142 @@
 .shopSection {
-    padding: 5rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-     
-      
-      
+  padding: 6.5rem 1.5rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shopTitle {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.35em;
+  font-size: 28px;
+  color: #b8a898;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.shopSubtitle {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #6b7280;
+}
+
+.pricingGrid {
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.packageTitle {
+  font-family: "Cormorant Garamond", serif;
+  color: #3e4e3c;
+  font-weight: 400;
+}
+
+.card {
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.featured {
+  border-color: #c1a36c;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #c1a36c;
+  color: #ffffff;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.price {
+  font-family: "Cormorant Garamond", serif;
+  color: #3e4e3c;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0.75rem 0 1rem;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  color: #374151;
+}
+
+.featureItem {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0.35rem 0;
+}
+
+.cta {
+  margin-top: auto;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: #3f4f3d;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.cta:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .shopSection {
+    padding: 8rem 2rem 5rem;
   }
-  
+
   .shopTitle {
-      text-transform: uppercase;
-      text-align: center;
-      letter-spacing: 0.35em;
-      font-size: 40px;
-      color: #b8a898;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    
+    font-size: 40px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
-  
-  .shopSubtitle {
-    font-family: "Cormorant Garamond", serif;
-    text-align: center;
-    margin-top: 0.5rem;
-    color: #6b7280;
-  }
-  
+
   .pricingGrid {
-    font-family: "Cormorant Garamond", serif;
     margin-top: 3rem;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
   }
-  .packageTitle {
-    font-family: "Cormorant Garamond", serif;
-    color: #3E4E3C;
-    font-weight: 400;
-  }
-  
-  
+
   .card {
-    font-family: "Cormorant Garamond", serif;
-    position: relative;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 16px;
     padding: 2.5rem 2rem;
-    text-align: center;
-  
-    display: flex;
-    flex-direction: column;
-  
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  
-  
-  .card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-  }
-  
-  .featured {
-    border-color: #C1A36C;
-  }
-  
-  .badge {
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #C1A36C;
-    color: #ffffff;
-    padding: 0.35rem 0.75rem;
-    border-radius: 999px;
-    font-size: 0.75rem;
-    font-weight: 600;
-  }
-  
+
   .price {
-    font-family: "Cormorant Garamond", serif;
-    color: #3E4E3C;
     font-size: 2rem;
-    font-weight: 400;
     margin: 1rem 0 1.5rem;
   }
-  
+
   .featureList {
-    list-style: none;
-    padding: 0;
     margin-bottom: 2rem;
-    color: #374151;
   }
-  
+
   .featureItem {
-    font-family: "Cormorant Garamond", serif;
     margin: 0.5rem 0;
   }
-  
-  .cta {
-    margin-top: auto;
-    width: 100%;
-    padding: 0.75rem 1rem;
-    border-radius: 999px;
-    background: #3f4f3d;
-    color: #ffffff;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-  }
-  
-  
-  .cta:hover {
-    opacity: 0.9;
-  }
-  
+}

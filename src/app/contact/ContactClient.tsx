@@ -61,8 +61,8 @@ export default function ContactClient() {
   }
 
   return (
-    <main className="min-h-screen px-10 pt-40 bg-gray-50 text-black">
-      <div className="max-w-3xl mx-auto">
+    <main className="min-h-screen px-6 md:px-10 pt-28 md:pt-40 pb-20 bg-gray-50 text-black">
+      <div className="max-w-2xl md:max-w-3xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -76,7 +76,7 @@ export default function ContactClient() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="space-y-10"
+          className="space-y-7 md:space-y-10"
         >
           {/* Name */}
           <div className="relative">
@@ -84,7 +84,7 @@ export default function ContactClient() {
               className={`font-cormorant absolute left-0 transition-all ${
                 focused === "name" || form.name
                   ? "-top-5 text-sm text-gray-600"
-                  : "top-2 text-base text-gray-400"
+                  : "top-2 text-sm md:text-base text-gray-400"
               }`}
             >
               Name
@@ -107,7 +107,7 @@ export default function ContactClient() {
               className={`font-cormorant absolute left-0 transition-all ${
                 focused === "email" || form.email
                   ? "-top-5 text-sm text-gray-600"
-                  : "top-2 text-base text-gray-400"
+                  : "top-2 text-sm md:text-base text-gray-400"
               }`}
             >
               Email
@@ -130,7 +130,7 @@ export default function ContactClient() {
               className={`font-cormorant absolute left-0 transition-all ${
                 focused === "message" || form.message
                   ? "-top-5 text-sm text-gray-600"
-                  : "top-2 text-base text-gray-400"
+                  : "top-2 text-sm md:text-base text-gray-400"
               }`}
             >
               Message
