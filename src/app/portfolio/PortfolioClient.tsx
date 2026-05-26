@@ -143,19 +143,32 @@ export default function PortfolioClient() {
 
   return (
     <main className="min-h-screen bg-[#f7f7f5] text-gray-900">
-      <div className="max-w-7xl mx-auto pl-12 pr-20 pt-30 pb-40">
+      <div className="max-w-7xl mx-auto pl-12 pr-20 pt-25 pb-40">
         <p className="uppercase tracking-widest text-xs mb-6 opacity-60">
           Selected Works
         </p>
 
         {/* Filter Buttons */}
-        <div className="flex gap-10 mb-24 text-sm tracking-widest uppercase">
+        <div className="flex gap-10 mb-15 text-sm tracking-widest uppercase">
           {tabs.map((tab) => (
             <button
               key={tab.value}
               onClick={() => setFilter(tab.value)}
-              className={`transition ${filter === tab.value ? "font-medium underline" : "opacity-40"
-                }`}
+              className={`
+  relative transition duration-300
+  ${filter === tab.value
+                  ? "opacity-100"
+                  : "opacity-40 hover:opacity-100"
+                }
+  after:absolute after:left-0 after:-bottom-1
+  after:h-[1px] after:w-full after:bg-black
+  after:origin-left after:transition-transform
+  after:duration-300
+  ${filter === tab.value
+                  ? "after:scale-x-100"
+                  : "after:scale-x-0 hover:after:scale-x-100"
+                }
+`}
             >
               {tab.label}
             </button>
@@ -164,7 +177,7 @@ export default function PortfolioClient() {
 
         {/* Featured */}
         {filter === "featured" && (
-          <div className="flex flex-col gap-48">
+          <div className="flex flex-col gap-20">
             {filteredItems.map((item, index) => {
               const isEven = index % 2 === 0;
 
@@ -230,15 +243,35 @@ export default function PortfolioClient() {
                 href={`/portfolio/albums/${album.slug}`}
                 className="group block"
               >
-                <div className="relative overflow-hidden rounded-lg group">
+                <div className="relative overflow-hidden rounded-lg">
                   <img
                     src={album.cover}
-                    className="w-full h-[65vh] object-cover transition-all duration-700 group-hover:scale-105 group-hover:blur-sm"
+                    className="
+                    w-full h-[55vh] md:h-[65vh] object-cover
+                    transition-all duration-700
+                    md:group-hover:scale-105 md:group-hover:blur-sm
+                  "
                     alt={album.title}
                   />
-                  <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                    <h3 className="text-white uppercase tracking-widest text-sm">
+
+                  <div
+                    className="
+                    absolute inset-0 bg-black/30
+                    opacity-100 md:opacity-0
+                    transition-opacity duration-500
+                    md:group-hover:opacity-100
+                  "
+                  />
+
+                  <div
+                    className="
+                    absolute inset-0 flex items-center justify-center
+                    opacity-100 md:opacity-0
+                    transition-opacity duration-500
+                    md:group-hover:opacity-100
+                  "
+                  >
+                    <h3 className="text-white uppercase tracking-widest text-sm text-center px-4">
                       {album.title}
                     </h3>
                   </div>
